@@ -38,14 +38,15 @@ jobs:
       - name: 📤 Get a list of repositories for ${{ matrix.group }} group
         id: repo-list
         run: |
-          for language in ${{ matrix.languages }}; do
+          REPOSITORIES=""
+          for language in "${{ matrix.languages }}"; do
               LANGUAGE_ARGS=""
               if [[ $language != "all" ]]; then
                   LANGUAGE_ARGS="-l $language"
               fi
               REPOSITORIES+=$(gh repo list \
               $OWNER \
-              --public \
+              --source \
               --no-archived \
               -L $repo_limit \
               $LANGUAGE_ARGS \
