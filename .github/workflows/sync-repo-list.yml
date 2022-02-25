@@ -1,6 +1,7 @@
 name: Sync repo list in sync.yml file
 
 on:
+  pull_request:
   push:
     branches:
       - master
@@ -19,6 +20,8 @@ jobs:
       matrix:
         include:
           - group: default
+            languages: |
+              all
 
           - group: proto
             languages: |
@@ -35,19 +38,22 @@ jobs:
       - name: 📤 Get a list of repositories for ${{ matrix.group }} group
         id: repo-list
         run: |
-          LANGUAGE_ARGS=""
-          if [[ "${{ matrix.group }}" != "default" ]]; then
-              LANGUAGE_ARGS="-l ${{ matrix.group }}"
-          fi
-          REPOSITORIES=$(gh repo list \
+          for language in ${{ matrix.languages }}; do
+              LANGUAGE_ARGS=""
+              if [[ $language != "all" ]]; then
+                  LANGUAGE_ARGS="-l $language"
+              fi
+              REPOSITORIES+=$(gh repo list \
               $OWNER \
               --public \
-              --source \
               --no-archived \
               -L $repo_limit \
               $LANGUAGE_ARGS \
               --json name,owner \
               -q '.|=sort_by(.name)| .[] | [.owner.login, .name] | join("/")')
+              REPOSITORIES+=" "
+          done
+          REPOSITORIES=$(echo $REPOSITORIES | sort | uniq | tr " " "\n")
           REPOSITORIES="${REPOSITORIES//'%'/'%25'}"
           REPOSITORIES="${REPOSITORIES//$'\n'/'%0A'}"
           REPOSITORIES="${REPOSITORIES//$'\r'/'%0D'}"
