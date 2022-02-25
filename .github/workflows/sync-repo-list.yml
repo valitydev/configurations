@@ -20,15 +20,15 @@ jobs:
       matrix:
         include:
           - group: default
-            languages: >
+            languages: >-
               all
 
           - group: proto
-            languages: >
+            languages: >-
               thrift
 
           - group: java
-            languages: >
+            languages: >-
               java
               kotlin
     steps:
