@@ -76,7 +76,7 @@ jobs:
       - name: 📤 Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          base: master
+          base: ft/add_workflows_and_sync_configuration
           branch: updates/${{ matrix.group }}
           title: "Update repo list for ${{ matrix.group }} group"
           commit-message: "Update repo list for ${{ matrix.group }} group"
