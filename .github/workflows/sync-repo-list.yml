@@ -39,7 +39,7 @@ jobs:
         id: repo-list
         run: |
           REPOSITORIES=""
-          for language in "${{ matrix.languages }}"; do
+          for language in ${{ matrix.languages }}; do
               LANGUAGE_ARGS=""
               if [[ $language != "all" ]]; then
                   LANGUAGE_ARGS="-l $language"
