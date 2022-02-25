@@ -7,6 +7,7 @@ group:
         dest: LICENSE
     repos: |-
       valitydev/damsel
+      valitydev/newway
 
   - id: proto
     files:
