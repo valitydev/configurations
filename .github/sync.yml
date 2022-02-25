@@ -13,6 +13,8 @@ group:
       - source: workflows/proto/
         dest: .github/workflows/
         deleteOrphaned: true
+        exclude: |
+          basic-linters.yml
     repos: |-
       valitydev/damsel
 
