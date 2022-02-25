@@ -1,7 +1,6 @@
 name: Sync repo list in sync.yml file
 
 on:
-  pull_request:
   push:
     branches:
       - master
@@ -76,7 +75,7 @@ jobs:
       - name: 📤 Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          base: ft/add_workflows_and_sync_configuration
+          base: master
           branch: updates/${{ matrix.group }}
           title: "Update repo list for ${{ matrix.group }} group"
           commit-message: "Update repo list for ${{ matrix.group }} group"

@@ -3,8 +3,8 @@ name: Vality auto-tags
 on:
   push:
     branches:
-      - master
-      - main
+      - "master"
+      - "main"
 
 jobs:
   tag-action:
