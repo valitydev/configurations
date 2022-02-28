@@ -1,0 +1,83 @@
+name: Sync repo list in sync.yml file
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  schedule:
+    - cron: 0 * * * *
+
+env:
+  repo_limit: 1000
+
+jobs:
+  workflows-sync:
+    name: Sync repositories for ${{ matrix.group }} group
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - group: default
+            languages: >-
+              all
+
+          - group: proto
+            languages: >-
+              thrift
+
+          - group: java
+            languages: >-
+              java
+              kotlin
+    steps:
+      - name: ⤵️ Check out code
+        uses: actions/checkout@v2
+
+      - name: 📤 Get a list of repositories for ${{ matrix.group }} group
+        id: repo-list
+        run: |
+          REPOSITORIES=""
+          for language in ${{ matrix.languages }}; do
+              LANGUAGE_ARGS=""
+              if [[ $language != "all" ]]; then
+                  LANGUAGE_ARGS="-l $language"
+              fi
+              REPOSITORIES+=$(gh repo list \
+              $OWNER \
+              --source \
+              --no-archived \
+              -L $repo_limit \
+              $LANGUAGE_ARGS \
+              --json name,owner \
+              -q '.|=sort_by(.name)| .[] | [.owner.login, .name] | join("/")')
+              REPOSITORIES+=" "
+          done
+          REPOSITORIES=$(echo $REPOSITORIES | sort | uniq | tr " " "\n")
+          REPOSITORIES="${REPOSITORIES//'%'/'%25'}"
+          REPOSITORIES="${REPOSITORIES//$'\n'/'%0A'}"
+          REPOSITORIES="${REPOSITORIES//$'\r'/'%0D'}"
+          echo "::set-output name=repositories::$REPOSITORIES"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+
+      - name: 🔄 Update sync.yml file for ${{ matrix.group }} group
+        uses: fjogeleit/yaml-update-action@master
+        with:
+          valueFile: ".github/sync.yml"
+          propertyPath: >-
+            $.group[?(@.id == "${{ matrix.group }}")].repos
+          value: ${{ steps.repo-list.outputs.repositories }}
+          updateFile: true
+          commitChange: false
+
+      - name: 📤 Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          base: master
+          branch: updates/${{ matrix.group }}
+          title: "Update repo list for ${{ matrix.group }} group"
+          commit-message: "Update repo list for ${{ matrix.group }} group"
+          add-paths: |
+            .github/sync.yml

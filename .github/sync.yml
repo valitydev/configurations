@@ -1,0 +1,30 @@
+group:
+  - id: default
+    files:
+      - source: workflows/base/basic-linters.yml
+        dest: .github/workflows/basic-linters.yml
+      - source: LICENSE
+        dest: LICENSE
+      - source: .github/settings.yml
+        replace: false
+    repos: |-
+      valitydev/damsel
+      valitydev/newway
+
+  - id: proto
+    files:
+      - source: workflows/proto/
+        dest: .github/workflows/
+        deleteOrphaned: true
+        exclude: |
+          basic-linters.yml
+    repos: |-
+      valitydev/damsel
+
+  - id: java
+    files:
+      - source: codeowners/java
+        dest: CODEOWNERS
+        replace: false
+    repos: |-
+      valitydev/newway
