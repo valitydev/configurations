@@ -1,6 +1,5 @@
 name: Sync files
 on:
-  pull_request:
   push:
     branches:
       - master
