@@ -169,7 +169,46 @@ group:
         deleteOrphaned: true
         exclude: |
           basic-linters.yml
-    repos: valitydev/damsel
+    repos: |-
+      valitydev/account-balance-proto
+      valitydev/analytics-proto
+      valitydev/ank-proto
+      valitydev/bender-proto
+      valitydev/binbase-proto
+      valitydev/bouncer-proto
+      valitydev/cashreg-proto
+      valitydev/cds-proto
+      valitydev/damsel
+      valitydev/deanonimus-proto
+      valitydev/dominant-cache-proto
+      valitydev/fault-detector-proto
+      valitydev/file-storage-proto
+      valitydev/fistful-proto
+      valitydev/fistful-reporter-proto
+      valitydev/fraudbusters-notificator-proto
+      valitydev/fraudbusters-proto
+      valitydev/fraudbusters-warehouse-proto
+      valitydev/identdocstore-proto
+      valitydev/identification-proto
+      valitydev/limiter-proto
+      valitydev/machinegun-proto
+      valitydev/magista-proto
+      valitydev/messages-proto
+      valitydev/midgard-proto
+      valitydev/notification-proto
+      valitydev/pathfinder_proto
+      valitydev/payout-manager-proto
+      valitydev/pstds-proto
+      valitydev/questionary-aggr-proto
+      valitydev/reporter-proto
+      valitydev/schedulator-proto
+      valitydev/shumaich-proto
+      valitydev/three-ds-server-storage-proto
+      valitydev/token-keeper-proto
+      valitydev/trusted-tokens-proto
+      valitydev/wb-list-proto
+      valitydev/webhook-dispatcher-proto
+      valitydev/xrates-proto
   - id: java
     files:
       - source: codeowners/java
