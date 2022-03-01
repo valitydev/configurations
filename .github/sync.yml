@@ -265,6 +265,7 @@ group:
       valitydev/testcontainers-annotations
       valitydev/trusted-tokens-manager
       valitydev/vality-http-client
+      valitydev/wallets-hooker
       valitydev/wb-list-manager
       valitydev/woody_java
       valitydev/xrates
