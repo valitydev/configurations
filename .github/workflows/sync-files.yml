@@ -1,9 +1,7 @@
 name: Sync files
 on:
-  push:
-    branches:
-      - master
-      - main
+  schedule:
+    - cron: 0 * * * *
 jobs:
   sync:
     runs-on: ubuntu-latest
