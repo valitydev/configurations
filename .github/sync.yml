@@ -152,6 +152,7 @@ group:
       valitydev/url-shortener
       valitydev/vality-http-client
       valitydev/vality.dev
+      valitydev/wallets-hooker
       valitydev/wapi-pcidss-v0
       valitydev/wapi-v0
       valitydev/wb-list-manager
