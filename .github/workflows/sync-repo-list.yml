@@ -32,7 +32,7 @@ jobs:
               kotlin
     steps:
       - name: ⤵️ Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 📤 Get a list of repositories for ${{ matrix.group }} group
         id: repo-list
