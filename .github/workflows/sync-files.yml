@@ -1,7 +1,7 @@
 name: Sync files
 on:
   schedule:
-    - cron: 0 */10 * * *
+    - cron: 0 0 * * *
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -15,3 +15,4 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
           BRANCH_PREFIX: update/
+          OVERWRITE_EXISTING_PR: false
