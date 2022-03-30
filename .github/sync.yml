@@ -15,6 +15,7 @@ group:
       valitydev/action-deploy-docker
       valitydev/action-deploy-jdk-package
       valitydev/action-download-file
+      valitydev/action-frontend
       valitydev/action-jdk-build
       valitydev/action-setup-swagger-codegen
       valitydev/action-setup-thrift
@@ -27,12 +28,14 @@ group:
       valitydev/adapter-thrift-lib
       valitydev/analytics
       valitydev/analytics-proto
+      valitydev/anapi-v1
       valitydev/anapi-v2
       valitydev/ank-proto
       valitydev/base-workflows
       valitydev/bender-proto
       valitydev/binbase-proto
       valitydev/bouncer
+      valitydev/bouncer-client-erlang
       valitydev/bouncer-policies
       valitydev/bouncer-proto
       valitydev/capi-pcidss-v2
@@ -80,6 +83,7 @@ group:
       valitydev/fraudbusters-warehouse
       valitydev/fraudbusters-warehouse-proto
       valitydev/fraudo
+      valitydev/frontend-thrift-codegen
       valitydev/geck
       valitydev/hellgate
       valitydev/homebrew-tap
@@ -97,6 +101,7 @@ group:
       valitydev/limiter-proto
       valitydev/machinarium
       valitydev/machinegun
+      valitydev/machinegun-core
       valitydev/machinegun-proto
       valitydev/magista
       valitydev/magista-dsl
@@ -133,15 +138,23 @@ group:
       valitydev/shumaich-proto
       valitydev/shumway
       valitydev/sink-common-lib
+      valitydev/swag-analytics
       valitydev/swag-anapi-v2
+      valitydev/swag-dark-api
       valitydev/swag-fraudbusters
       valitydev/swag-fraudbusters-management
+      valitydev/swag-messages
+      valitydev/swag-notification
       valitydev/swag-payments
+      valitydev/swag-questionary
+      valitydev/swag-questionary-aggr-proxy
       valitydev/swag-url-shortener
       valitydev/swag-wallets
+      valitydev/swag-wallets-webhook-events
       valitydev/swag-webhook-events
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
+      valitydev/test-repo
       valitydev/testcontainers-annotations
       valitydev/three-ds-server-storage-proto
       valitydev/token-keeper
