@@ -15,4 +15,3 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
           BRANCH_PREFIX: update/
-          OVERWRITE_EXISTING_PR: false
