@@ -83,6 +83,7 @@ group:
       valitydev/fraudbusters-warehouse
       valitydev/fraudbusters-warehouse-proto
       valitydev/fraudo
+      valitydev/frontend-openapi-generator-cli
       valitydev/frontend-thrift-codegen
       valitydev/geck
       valitydev/hellgate
