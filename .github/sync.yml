@@ -220,7 +220,6 @@ group:
       valitydev/questionary-aggr-proto
       valitydev/reporter-proto
       valitydev/schedulator-proto
-      valitydev/shumaich-proto
       valitydev/three-ds-server-storage-proto
       valitydev/token-keeper-proto
       valitydev/trusted-tokens-proto
