@@ -63,6 +63,7 @@ group:
       valitydev/erlang-templates
       valitydev/erlang-workflows
       valitydev/error-mapping-java
+      valitydev/fault-detector
       valitydev/fault-detector-proto
       valitydev/file-storage-proto
       valitydev/fistful-magista
@@ -98,6 +99,7 @@ group:
       valitydev/java-shared-resources
       valitydev/java-workflow
       valitydev/kafka-common-lib
+      valitydev/kafka-connect-image
       valitydev/library-parent-pom
       valitydev/limiter-proto
       valitydev/machinarium
@@ -169,6 +171,7 @@ group:
       valitydev/wallets-hooker
       valitydev/wapi-pcidss-v0
       valitydev/wapi-v0
+      valitydev/wapi_lib
       valitydev/wb-list-manager
       valitydev/wb-list-proto
       valitydev/webhook-dispatcher-proto
