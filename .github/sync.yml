@@ -121,6 +121,7 @@ group:
       valitydev/notification-proto
       valitydev/org-management-proto
       valitydev/org-manager
+      valitydev/party-client-erlang
       valitydev/party-management
       valitydev/party-shop
       valitydev/party-shop-proto
