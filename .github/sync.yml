@@ -52,6 +52,7 @@ group:
       valitydev/configurations
       valitydev/control-center
       valitydev/damsel
+      valitydev/dark-api
       valitydev/dashboard
       valitydev/db-common-lib
       valitydev/deanonimus
