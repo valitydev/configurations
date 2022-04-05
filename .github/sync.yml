@@ -242,6 +242,7 @@ group:
       valitydev/claim-management
       valitydev/clickhouse-test
       valitydev/columbus
+      valitydev/dark-api
       valitydev/db-common-lib
       valitydev/deanonimus
       valitydev/error-mapping-java
