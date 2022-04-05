@@ -248,6 +248,7 @@ group:
       valitydev/db-common-lib
       valitydev/deanonimus
       valitydev/error-mapping-java
+      valitydev/fault-detector
       valitydev/fistful-magista
       valitydev/fistful-reporter
       valitydev/fraudbusters
