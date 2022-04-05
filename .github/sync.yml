@@ -138,7 +138,6 @@ group:
       valitydev/scheduled-payout-worker
       valitydev/scrooge
       valitydev/service-parent-pom
-      valitydev/shumaich-proto
       valitydev/shumway
       valitydev/sink-common-lib
       valitydev/swag-analytics
@@ -149,7 +148,6 @@ group:
       valitydev/swag-messages
       valitydev/swag-notification
       valitydev/swag-payments
-      valitydev/swag-questionary
       valitydev/swag-questionary-aggr-proxy
       valitydev/swag-url-shortener
       valitydev/swag-wallets
