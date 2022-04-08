@@ -50,6 +50,7 @@ group:
       valitydev/columbus
       valitydev/columbus-proto
       valitydev/configurations
+      valitydev/consuela
       valitydev/control-center
       valitydev/damsel
       valitydev/dark-api
@@ -61,6 +62,7 @@ group:
       valitydev/dominant
       valitydev/dominant-cache
       valitydev/dominant-cache-proto
+      valitydev/erlang-guidelines
       valitydev/erlang-templates
       valitydev/erlang-workflows
       valitydev/error-mapping-java
