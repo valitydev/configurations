@@ -32,6 +32,7 @@ group:
       valitydev/anapi-v2
       valitydev/ank-proto
       valitydev/base-workflows
+      valitydev/bender
       valitydev/bender-proto
       valitydev/binbase-proto
       valitydev/bouncer
@@ -65,7 +66,6 @@ group:
       valitydev/erlang-guidelines
       valitydev/erlang-templates
       valitydev/erlang-workflows
-      valitydev/error-mapping-java
       valitydev/fault-detector
       valitydev/fault-detector-proto
       valitydev/file-storage-proto
@@ -104,6 +104,7 @@ group:
       valitydev/kafka-common-lib
       valitydev/kafka-connect-image
       valitydev/library-parent-pom
+      valitydev/limiter
       valitydev/limiter-proto
       valitydev/machinarium
       valitydev/machinegun
@@ -137,6 +138,7 @@ group:
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
       valitydev/registry-payout-worker
+      valitydev/reporter
       valitydev/reporter-proto
       valitydev/schedulator-proto
       valitydev/scheduled-payout-worker
@@ -171,6 +173,7 @@ group:
       valitydev/vality-http-client
       valitydev/vality.dev
       valitydev/wallets-hooker
+      valitydev/wapi-lib-2
       valitydev/wapi-pcidss-v0
       valitydev/wapi-v0
       valitydev/wapi_lib
