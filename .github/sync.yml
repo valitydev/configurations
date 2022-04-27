@@ -233,6 +233,9 @@ group:
       - source: codeowners/java
         dest: CODEOWNERS
         replace: false
+      - source: java/.codecov.yml
+        dest: .codecov.yml
+        replace: false
     repos: |-
       valitydev/adapter-bank-payout-spring-boot-starter
       valitydev/adapter-bank-spring-boot-starter
