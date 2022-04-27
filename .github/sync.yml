@@ -146,7 +146,6 @@ group:
       valitydev/service-parent-pom
       valitydev/shumway
       valitydev/sink-common-lib
-      valitydev/swag-analytics
       valitydev/swag-anapi-v2
       valitydev/swag-dark-api
       valitydev/swag-fraudbusters
