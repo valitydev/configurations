@@ -233,7 +233,7 @@ group:
       - source: codeowners/java
         dest: CODEOWNERS
         replace: false
-      - source: java/.codecov.yml
+      - source: .github/.codecov.yml
         dest: .codecov.yml
         replace: false
     repos: |-
