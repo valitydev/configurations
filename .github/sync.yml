@@ -247,12 +247,11 @@ group:
       valitydev/adapter-bank-payout-spring-boot-starter
       valitydev/adapter-bank-spring-boot-starter
       valitydev/adapter-bank-spring-boot-starter-test
-      valitydev/adapter-client-lib
       valitydev/adapter-common-lib
       valitydev/adapter-flow-lib
-      valitydev/adapter-thrift-lib
       valitydev/analytics
       valitydev/anapi-v2
+      valitydev/auto-approve
       valitydev/claim-management
       valitydev/clickhouse-test
       valitydev/columbus
@@ -260,6 +259,7 @@ group:
       valitydev/db-common-lib
       valitydev/deanonimus
       valitydev/fault-detector
+      valitydev/file-storage
       valitydev/fistful-magista
       valitydev/fistful-reporter
       valitydev/fraudbusters
@@ -277,6 +277,7 @@ group:
       valitydev/magista
       valitydev/magista-dsl
       valitydev/mamsel
+      valitydev/messages
       valitydev/mg-event-sink-listener-spring-boot-starter
       valitydev/newway
       valitydev/org-manager
@@ -286,8 +287,10 @@ group:
       valitydev/proxy-mocket-inspector
       valitydev/proxy-mocketbank
       valitydev/proxy-mocketbank-mpi
+      valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
       valitydev/reporter
+      valitydev/schedulator
       valitydev/scheduled-payout-worker
       valitydev/scrooge
       valitydev/shumway
