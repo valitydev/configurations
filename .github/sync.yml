@@ -32,6 +32,7 @@ group:
       valitydev/auto-approve
       valitydev/base-workflows
       valitydev/bender
+      valitydev/bender-client-erlang
       valitydev/bender-proto
       valitydev/binbase-proto
       valitydev/bouncer
@@ -137,6 +138,7 @@ group:
       valitydev/pg-embedded-plugin
       valitydev/proxy-mocket-inspector
       valitydev/proxy-mocketbank
+      valitydev/proxy-mocketbank-apm
       valitydev/proxy-mocketbank-mpi
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
