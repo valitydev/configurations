@@ -22,15 +22,14 @@ group:
       valitydev/adapter-bank-payout-spring-boot-starter
       valitydev/adapter-bank-spring-boot-starter
       valitydev/adapter-bank-spring-boot-starter-test
-      valitydev/adapter-client-lib
       valitydev/adapter-common-lib
       valitydev/adapter-flow-lib
-      valitydev/adapter-thrift-lib
       valitydev/analytics
       valitydev/analytics-proto
       valitydev/anapi-v1
       valitydev/anapi-v2
       valitydev/ank-proto
+      valitydev/auto-approve
       valitydev/base-workflows
       valitydev/bender
       valitydev/bender-proto
@@ -68,6 +67,7 @@ group:
       valitydev/erlang-workflows
       valitydev/fault-detector
       valitydev/fault-detector-proto
+      valitydev/file-storage
       valitydev/file-storage-proto
       valitydev/fistful-magista
       valitydev/fistful-proto
@@ -76,6 +76,7 @@ group:
       valitydev/fistful-server
       valitydev/fraudbusters
       valitydev/fraudbusters-api
+      valitydev/fraudbusters-charts
       valitydev/fraudbusters-compose
       valitydev/fraudbusters-examples
       valitydev/fraudbusters-management
@@ -110,10 +111,12 @@ group:
       valitydev/machinegun
       valitydev/machinegun-core
       valitydev/machinegun-proto
+      valitydev/machinery-erlang
       valitydev/magista
       valitydev/magista-dsl
       valitydev/magista-proto
       valitydev/mamsel
+      valitydev/messages
       valitydev/messages-proto
       valitydev/mg-event-sink-listener-spring-boot-starter
       valitydev/midgard-proto
@@ -137,9 +140,11 @@ group:
       valitydev/proxy-mocketbank-mpi
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
+      valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
       valitydev/reporter
       valitydev/reporter-proto
+      valitydev/schedulator
       valitydev/schedulator-proto
       valitydev/scheduled-payout-worker
       valitydev/scrooge
@@ -172,12 +177,12 @@ group:
       valitydev/vality-http-client
       valitydev/vality.dev
       valitydev/wallets-hooker
-      valitydev/wapi-lib-2
+      valitydev/wapi-lib
       valitydev/wapi-pcidss-v0
       valitydev/wapi-v0
-      valitydev/wapi_lib
       valitydev/wb-list-manager
       valitydev/wb-list-proto
+      valitydev/webhook-dispatcher
       valitydev/webhook-dispatcher-proto
       valitydev/woody_erlang
       valitydev/woody_java
