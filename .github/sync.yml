@@ -286,6 +286,7 @@ group:
       valitydev/pg-embedded-plugin
       valitydev/proxy-mocket-inspector
       valitydev/proxy-mocketbank
+      valitydev/proxy-mocketbank-apm
       valitydev/proxy-mocketbank-mpi
       valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
@@ -300,5 +301,6 @@ group:
       valitydev/vality-http-client
       valitydev/wallets-hooker
       valitydev/wb-list-manager
+      valitydev/webhook-dispatcher
       valitydev/woody_java
       valitydev/xrates
