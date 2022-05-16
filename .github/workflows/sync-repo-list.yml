@@ -30,6 +30,10 @@ jobs:
             languages: >-
               java
               kotlin
+
+          - group: erlang
+            languages: >-
+              erlang
     steps:
       - name: ⤵️ Check out code
         uses: actions/checkout@v3

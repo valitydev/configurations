@@ -306,3 +306,9 @@ group:
       valitydev/webhook-dispatcher
       valitydev/woody_java
       valitydev/xrates
+  - id: erlang
+    files:
+      - source: erlang/.github/settings.yml
+        dest: .github/settings.yml
+        replace: true
+    repos: []
