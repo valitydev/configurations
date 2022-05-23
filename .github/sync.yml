@@ -31,6 +31,7 @@ group:
       valitydev/ank-proto
       valitydev/auto-approve
       valitydev/base-workflows
+      valitydev/beholder
       valitydev/bender
       valitydev/bender-client-erlang
       valitydev/bender-proto
@@ -112,6 +113,7 @@ group:
       valitydev/machinegun
       valitydev/machinegun-core
       valitydev/machinegun-proto
+      valitydev/machinegun-woody-api
       valitydev/machinery-erlang
       valitydev/magista
       valitydev/magista-dsl
