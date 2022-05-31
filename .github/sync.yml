@@ -30,6 +30,7 @@ group:
       valitydev/anapi-v2
       valitydev/ank-proto
       valitydev/auto-approve
+      valitydev/bankcard-validator
       valitydev/base-workflows
       valitydev/beholder
       valitydev/bender
@@ -43,6 +44,7 @@ group:
       valitydev/capi-pcidss-v2
       valitydev/capi-v2
       valitydev/cashreg-proto
+      valitydev/cds
       valitydev/cds-proto
       valitydev/charts
       valitydev/checkout
@@ -94,6 +96,7 @@ group:
       valitydev/frontend-thrift-codegen
       valitydev/geck
       valitydev/hellgate
+      valitydev/holmes
       valitydev/homebrew-tap
       valitydev/hooker
       valitydev/identdocstore-proto
