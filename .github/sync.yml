@@ -259,6 +259,7 @@ group:
       valitydev/analytics
       valitydev/anapi-v2
       valitydev/auto-approve
+      valitydev/beholder
       valitydev/claim-management
       valitydev/clickhouse-test
       valitydev/columbus
