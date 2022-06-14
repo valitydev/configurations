@@ -318,4 +318,41 @@ group:
       - source: erlang/.github/settings.yml
         dest: .github/settings.yml
         replace: true
-    repos: []
+    repos: |-
+      valitydev/anapi-v1
+      valitydev/bankcard-validator
+      valitydev/bender
+      valitydev/bender-client-erlang
+      valitydev/bouncer
+      valitydev/bouncer-client-erlang
+      valitydev/capi-pcidss-v2
+      valitydev/capi-v2
+      valitydev/cds
+      valitydev/consuela
+      valitydev/dmt_client
+      valitydev/dominant
+      valitydev/erlang-templates
+      valitydev/fistful-server
+      valitydev/hellgate
+      valitydev/iosetopts
+      valitydev/limiter
+      valitydev/machinegun
+      valitydev/machinegun-core
+      valitydev/machinegun-woody-api
+      valitydev/machinery-erlang
+      valitydev/moneypenny-proto
+      valitydev/msgpack-proto
+      valitydev/org-management-proto
+      valitydev/party-client-erlang
+      valitydev/party-management
+      valitydev/party-shop-proto
+      valitydev/swagger-generator-erlang
+      valitydev/tds-proto
+      valitydev/token-keeper
+      valitydev/token-keeper-client
+      valitydev/url-shortener
+      valitydev/wapi-lib
+      valitydev/wapi-pcidss-v0
+      valitydev/wapi-v0
+      valitydev/woody_erlang
+      valitydev/woorl
