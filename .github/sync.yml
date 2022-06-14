@@ -149,6 +149,7 @@ group:
       valitydev/questionary-aggr-proto
       valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
+      valitydev/repairer-proto
       valitydev/reporter
       valitydev/reporter-proto
       valitydev/schedulator
