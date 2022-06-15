@@ -347,6 +347,7 @@ group:
       valitydev/party-client-erlang
       valitydev/party-management
       valitydev/party-shop-proto
+      valitydev/rebar3-thrift-compiler
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
       valitydev/token-keeper
