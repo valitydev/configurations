@@ -62,7 +62,8 @@ group:
       valitydev/db-common-lib
       valitydev/deanonimus
       valitydev/deanonimus-proto
-      valitydev/dmt_client
+      valitydev/dmt-client
+      valitydev/dmt-core
       valitydev/dominant
       valitydev/dominant-cache
       valitydev/dominant-cache-proto
