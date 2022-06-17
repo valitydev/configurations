@@ -330,7 +330,8 @@ group:
       valitydev/capi-v2
       valitydev/cds
       valitydev/consuela
-      valitydev/dmt_client
+      valitydev/dmt-client
+      valitydev/dmt-core
       valitydev/dominant
       valitydev/erlang-templates
       valitydev/fistful-server
