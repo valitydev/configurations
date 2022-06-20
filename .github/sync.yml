@@ -141,6 +141,7 @@ group:
       valitydev/pathfinder_proto
       valitydev/payout-manager
       valitydev/payout-manager-proto
+      valitydev/payproc-errors-erlang
       valitydev/pg-embedded-plugin
       valitydev/proxy-mocket-inspector
       valitydev/proxy-mocketbank
@@ -151,6 +152,7 @@ group:
       valitydev/questionary-aggr-proxy
       valitydev/rebar3-thrift-compiler
       valitydev/registry-payout-worker
+      valitydev/repairer
       valitydev/repairer-proto
       valitydev/reporter
       valitydev/reporter-proto
