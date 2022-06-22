@@ -239,6 +239,7 @@ group:
       valitydev/payout-manager-proto
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
+      valitydev/repairer-proto
       valitydev/reporter-proto
       valitydev/schedulator-proto
       valitydev/three-ds-server-storage-proto
