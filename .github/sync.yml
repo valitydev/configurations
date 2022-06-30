@@ -150,6 +150,7 @@ group:
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
       valitydev/questionary-aggr-proxy
+      valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
       valitydev/registry-payout-worker
       valitydev/repairer
@@ -188,6 +189,7 @@ group:
       valitydev/url-shortener
       valitydev/vality-http-client
       valitydev/vality.dev
+      valitydev/wachter
       valitydev/wallets-hooker
       valitydev/wapi-lib
       valitydev/wapi-pcidss-v0
