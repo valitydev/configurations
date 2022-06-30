@@ -353,6 +353,7 @@ group:
       valitydev/party-management
       valitydev/party-shop-proto
       valitydev/payproc-errors-erlang
+      valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
