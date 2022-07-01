@@ -306,6 +306,7 @@ group:
       valitydev/proxy-mocketbank-mpi
       valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
+      valitydev/repairer
       valitydev/reporter
       valitydev/schedulator
       valitydev/scheduled-payout-worker
@@ -315,6 +316,7 @@ group:
       valitydev/testcontainers-annotations
       valitydev/trusted-tokens-manager
       valitydev/vality-http-client
+      valitydev/wachter
       valitydev/wallets-hooker
       valitydev/wb-list-manager
       valitydev/webhook-dispatcher
