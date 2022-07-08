@@ -345,6 +345,7 @@ group:
       valitydev/fistful-server
       valitydev/hellgate
       valitydev/iosetopts
+      valitydev/kds
       valitydev/limiter
       valitydev/machinegun
       valitydev/machinegun-core
