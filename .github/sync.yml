@@ -211,7 +211,6 @@ group:
         exclude: |
           basic-linters.yml
     repos: |-
-      valitydev/account-balance-proto
       valitydev/analytics-proto
       valitydev/ank-proto
       valitydev/bender-proto
@@ -244,6 +243,7 @@ group:
       valitydev/repairer-proto
       valitydev/reporter-proto
       valitydev/schedulator-proto
+      valitydev/scrooge-proto
       valitydev/three-ds-server-storage-proto
       valitydev/token-keeper-proto
       valitydev/trusted-tokens-proto
