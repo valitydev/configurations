@@ -10,7 +10,6 @@ group:
     repos: |-
       valitydev/.allstar
       valitydev/.github
-      valitydev/account-balance-proto
       valitydev/action-autotag
       valitydev/action-deploy-docker
       valitydev/action-deploy-jdk-package
@@ -110,6 +109,7 @@ group:
       valitydev/java-workflow
       valitydev/kafka-common-lib
       valitydev/kafka-connect-image
+      valitydev/kds
       valitydev/library-parent-pom
       valitydev/limiter
       valitydev/limiter-proto
@@ -161,6 +161,7 @@ group:
       valitydev/schedulator-proto
       valitydev/scheduled-payout-worker
       valitydev/scrooge
+      valitydev/scrooge-proto
       valitydev/service-parent-pom
       valitydev/shumway
       valitydev/sink-common-lib
@@ -180,6 +181,7 @@ group:
       valitydev/tds-proto
       valitydev/test-repo
       valitydev/testcontainers-annotations
+      valitydev/tf-aws-wireguard
       valitydev/three-ds-server-storage-proto
       valitydev/token-keeper
       valitydev/token-keeper-client
