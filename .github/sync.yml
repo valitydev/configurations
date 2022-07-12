@@ -362,6 +362,7 @@ group:
       valitydev/payproc-errors-erlang
       valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
+      valitydev/scoper
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
       valitydev/token-keeper
