@@ -184,6 +184,7 @@ group:
       valitydev/testcontainers-annotations
       valitydev/tf-aws-wireguard
       valitydev/three-ds-server-storage-proto
+      valitydev/thrift-erlang
       valitydev/token-keeper
       valitydev/token-keeper-client
       valitydev/token-keeper-proto
