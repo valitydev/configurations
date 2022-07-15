@@ -271,6 +271,7 @@ group:
       valitydev/anapi-v2
       valitydev/auto-approve
       valitydev/beholder
+      valitydev/binbase
       valitydev/claim-management
       valitydev/clickhouse-test
       valitydev/columbus
@@ -295,7 +296,6 @@ group:
       valitydev/machinarium
       valitydev/magista
       valitydev/magista-dsl
-      valitydev/mamsel
       valitydev/messages
       valitydev/mg-event-sink-listener-spring-boot-starter
       valitydev/newway
