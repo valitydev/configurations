@@ -366,6 +366,7 @@ group:
       valitydev/scoper
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
+      valitydev/thrift-erlang
       valitydev/token-keeper
       valitydev/token-keeper-client
       valitydev/url-shortener
