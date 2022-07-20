@@ -51,6 +51,7 @@ group:
       valitydev/claim-management
       valitydev/clamav
       valitydev/clickhouse-test
+      valitydev/cloudbeaver-arm
       valitydev/columbus
       valitydev/columbus-proto
       valitydev/configurations
