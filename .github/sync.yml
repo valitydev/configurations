@@ -281,6 +281,7 @@ group:
       valitydev/dark-api
       valitydev/db-common-lib
       valitydev/deanonimus
+      valitydev/dudoser
       valitydev/fault-detector
       valitydev/file-storage
       valitydev/fistful-magista
