@@ -68,6 +68,7 @@ group:
       valitydev/dominant
       valitydev/dominant-cache
       valitydev/dominant-cache-proto
+      valitydev/dudoser
       valitydev/erlang-guidelines
       valitydev/erlang-templates
       valitydev/erlang-workflows
