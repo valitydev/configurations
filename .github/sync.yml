@@ -294,6 +294,7 @@ group:
       valitydev/fraudbusters-notificator
       valitydev/fraudbusters-warehouse
       valitydev/fraudo
+      valitydev/gambit
       valitydev/geck
       valitydev/hooker
       valitydev/kafka-common-lib
