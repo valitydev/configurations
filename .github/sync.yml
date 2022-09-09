@@ -234,6 +234,7 @@ group:
       valitydev/fraudbusters-notificator-proto
       valitydev/fraudbusters-proto
       valitydev/fraudbusters-warehouse-proto
+      valitydev/gambit-proto
       valitydev/identdocstore-proto
       valitydev/identification-proto
       valitydev/limiter-proto
