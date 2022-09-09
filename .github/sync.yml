@@ -97,6 +97,8 @@ group:
       valitydev/fraudo
       valitydev/frontend-openapi-generator-cli
       valitydev/frontend-thrift-codegen
+      valitydev/gambit
+      valitydev/gambit-proto
       valitydev/geck
       valitydev/hellgate
       valitydev/holmes
@@ -172,6 +174,7 @@ group:
       valitydev/swag-dark-api
       valitydev/swag-fraudbusters
       valitydev/swag-fraudbusters-management
+      valitydev/swag-gambit
       valitydev/swag-messages
       valitydev/swag-notification
       valitydev/swag-payments
