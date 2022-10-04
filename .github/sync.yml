@@ -72,6 +72,7 @@ group:
       valitydev/erlang-guidelines
       valitydev/erlang-templates
       valitydev/erlang-workflows
+      valitydev/exrates-proto
       valitydev/fault-detector
       valitydev/fault-detector-proto
       valitydev/file-storage
@@ -81,6 +82,7 @@ group:
       valitydev/fistful-reporter
       valitydev/fistful-reporter-proto
       valitydev/fistful-server
+      valitydev/fraud-data-crawler-proto
       valitydev/fraudbusters
       valitydev/fraudbusters-api
       valitydev/fraudbusters-charts
@@ -154,6 +156,7 @@ group:
       valitydev/pstds-proto
       valitydev/questionary-aggr-proto
       valitydev/questionary-aggr-proxy
+      valitydev/rate-boss
       valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
       valitydev/registry-payout-worker
@@ -171,6 +174,7 @@ group:
       valitydev/shumway
       valitydev/sink-common-lib
       valitydev/swag-anapi-v2
+      valitydev/swag-api-keys
       valitydev/swag-dark-api
       valitydev/swag-fraudbusters
       valitydev/swag-fraudbusters-management
@@ -208,6 +212,7 @@ group:
       valitydev/webhook-dispatcher
       valitydev/webhook-dispatcher-proto
       valitydev/woody_erlang
+      valitydev/woody_ex
       valitydev/woody_java
       valitydev/woorl
       valitydev/xrates
