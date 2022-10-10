@@ -235,10 +235,12 @@ group:
       valitydev/damsel
       valitydev/deanonimus-proto
       valitydev/dominant-cache-proto
+      valitydev/exrates-proto
       valitydev/fault-detector-proto
       valitydev/file-storage-proto
       valitydev/fistful-proto
       valitydev/fistful-reporter-proto
+      valitydev/fraud-data-crawler-proto
       valitydev/fraudbusters-notificator-proto
       valitydev/fraudbusters-proto
       valitydev/fraudbusters-warehouse-proto
