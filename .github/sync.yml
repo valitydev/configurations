@@ -28,6 +28,7 @@ group:
       valitydev/anapi-v1
       valitydev/anapi-v2
       valitydev/ank-proto
+      valitydev/api-key-mgmt
       valitydev/auto-approve
       valitydev/bankcard-validator
       valitydev/base-workflows
@@ -87,6 +88,7 @@ group:
       valitydev/fraudbusters-api
       valitydev/fraudbusters-charts
       valitydev/fraudbusters-compose
+      valitydev/fraudbusters-docs
       valitydev/fraudbusters-examples
       valitydev/fraudbusters-management
       valitydev/fraudbusters-mg-connector
