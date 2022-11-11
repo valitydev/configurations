@@ -372,7 +372,6 @@ group:
       valitydev/machinery-erlang
       valitydev/moneypenny-proto
       valitydev/msgpack-proto
-      valitydev/org-management-proto
       valitydev/party-client-erlang
       valitydev/party-management
       valitydev/party-shop-proto
