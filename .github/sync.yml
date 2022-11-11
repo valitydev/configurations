@@ -343,6 +343,7 @@ group:
       valitydev/webhook-dispatcher
       valitydev/woody_java
       valitydev/xrates
+      valitydev/rate-boss
   - id: erlang
     files:
       - source: erlang/.github/settings.yml
