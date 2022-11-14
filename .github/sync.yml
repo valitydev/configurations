@@ -227,7 +227,6 @@ group:
           basic-linters.yml
     repos: |-
       valitydev/analytics-proto
-      valitydev/ank-proto
       valitydev/bender-proto
       valitydev/binbase-proto
       valitydev/bouncer-proto
@@ -268,10 +267,6 @@ group:
       valitydev/wb-list-proto
       valitydev/webhook-dispatcher-proto
       valitydev/xrates-proto
-      valitydev/tds-proto
-      valitydev/moneypenny-proto
-      valitydev/msgpack-proto
-      valitydev/party-shop-proto
   - id: java
     files:
       - source: codeowners/java
