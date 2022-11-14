@@ -377,13 +377,17 @@ group:
       valitydev/machinegun-core
       valitydev/machinegun-woody-api
       valitydev/machinery-erlang
+      valitydev/moneypenny-proto
+      valitydev/msgpack-proto
       valitydev/party-client-erlang
       valitydev/party-management
+      valitydev/party-shop-proto
       valitydev/payproc-errors-erlang
       valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
       valitydev/scoper
       valitydev/swagger-generator-erlang
+      valitydev/tds-proto
       valitydev/thrift-erlang
       valitydev/token-keeper
       valitydev/token-keeper-client
