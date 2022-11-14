@@ -27,7 +27,6 @@ group:
       valitydev/analytics-proto
       valitydev/anapi-v1
       valitydev/anapi-v2
-      valitydev/ank-proto
       valitydev/api-key-mgmt
       valitydev/auto-approve
       valitydev/bankcard-validator
