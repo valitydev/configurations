@@ -49,6 +49,7 @@ group:
       valitydev/charts
       valitydev/checkout
       valitydev/claim-management
+      valitydev/claim-management-api
       valitydev/clamav
       valitydev/clickhouse-test
       valitydev/cloudbeaver-arm
@@ -203,6 +204,7 @@ group:
       valitydev/url-shortener
       valitydev/vality-http-client
       valitydev/vality.dev
+      valitydev/vortigon
       valitydev/wachter
       valitydev/wallets-hooker
       valitydev/wapi-lib
