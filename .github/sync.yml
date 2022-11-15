@@ -348,7 +348,9 @@ group:
       valitydev/webhook-dispatcher
       valitydev/woody_java
       valitydev/xrates
+      valitydev/claim-management-api
       valitydev/rate-boss
+      valitydev/vortigon
   - id: erlang
     files:
       - source: erlang/.github/settings.yml
