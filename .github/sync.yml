@@ -177,6 +177,7 @@ group:
       valitydev/sink-common-lib
       valitydev/swag-anapi-v2
       valitydev/swag-api-keys
+      valitydev/swag-claim-management
       valitydev/swag-dark-api
       valitydev/swag-fraudbusters
       valitydev/swag-fraudbusters-management
