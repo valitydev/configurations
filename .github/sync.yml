@@ -192,6 +192,7 @@ group:
       valitydev/swag-webhook-events
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
+      valitydev/techdocs
       valitydev/test-repo
       valitydev/testcontainers-annotations
       valitydev/tf-aws-wireguard
