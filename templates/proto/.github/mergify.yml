@@ -5,8 +5,8 @@ pull_request_rules:
       - "check-success=java-build / build"
       - "check-success=erlang-build / Build"
       - or:
-        - "check-success=frontend-build"
-        - "check-skipped=frontend-build"
+          - "check-success=frontend-build"
+          - "check-skipped=frontend-build"
     actions:
       merge:
         method: squash
@@ -16,8 +16,8 @@ pull_request_rules:
       - "check-success=java-build / build"
       - "check-success=erlang-build / Build"
       - or:
-        - "check-success=frontend-build"
-        - "check-skipped=frontend-build"
+          - "check-success=frontend-build"
+          - "check-skipped=frontend-build"
     actions:
       merge:
         method: squash
