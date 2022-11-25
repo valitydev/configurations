@@ -7,10 +7,7 @@ group:
       valitydev/xrates-proto
   - id: proto
     files:
-      - source: workflows/proto/
-        dest: .github/workflows/
-        deleteOrphaned: true
-        exclude: |
-          basic-linters.yml
+      - source: templates/proto/
+        dest: .
     repos: |-
       valitydev/xrates-proto
