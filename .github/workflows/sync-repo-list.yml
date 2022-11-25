@@ -34,6 +34,7 @@ jobs:
           - group: erlang
             languages: >-
               erlang
+              elixir
     steps:
       - name: ⤵️ Check out code
         uses: actions/checkout@v3
