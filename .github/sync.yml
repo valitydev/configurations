@@ -2,7 +2,7 @@ group:
   - id: default
     files:
       - source: templates/default/
-        dest: /
+        dest: .
     repos: |-
       valitydev/xrates-proto
   - id: proto
