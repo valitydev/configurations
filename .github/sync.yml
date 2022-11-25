@@ -358,7 +358,6 @@ group:
         dest: .github/settings.yml
         replace: true
     repos: |-
-      valitydev/anapi-v1
       valitydev/bankcard-validator
       valitydev/bender
       valitydev/bender-client-erlang
@@ -397,3 +396,4 @@ group:
       valitydev/wapi-v0
       valitydev/woody_erlang
       valitydev/woorl
+      valitydev/woody_ex
