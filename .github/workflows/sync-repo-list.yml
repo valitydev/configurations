@@ -1,6 +1,7 @@
 name: Sync repo list in sync.yml file
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
