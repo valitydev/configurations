@@ -25,7 +25,6 @@ group:
       valitydev/adapter-flow-lib
       valitydev/analytics
       valitydev/analytics-proto
-      valitydev/anapi-v1
       valitydev/anapi-v2
       valitydev/api-key-mgmt
       valitydev/auto-approve
