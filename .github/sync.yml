@@ -68,6 +68,7 @@ group:
       valitydev/dominant
       valitydev/dominant-cache
       valitydev/dominant-cache-proto
+      valitydev/dominant-config
       valitydev/dudoser
       valitydev/erlang-guidelines
       valitydev/erlang-templates
@@ -165,6 +166,7 @@ group:
       valitydev/repairer-proto
       valitydev/reporter
       valitydev/reporter-proto
+      valitydev/riak-image
       valitydev/schedulator
       valitydev/schedulator-proto
       valitydev/scheduled-payout-worker
