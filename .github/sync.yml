@@ -398,4 +398,5 @@ group:
       valitydev/wapi-v0
       valitydev/woody_erlang
       valitydev/woorl
+      valitydev/api-key-mgmt
       valitydev/woody_ex
