@@ -191,6 +191,7 @@ group:
       valitydev/swag-wallets
       valitydev/swag-wallets-webhook-events
       valitydev/swag-webhook-events
+      valitydev/swagger-codegen
       valitydev/swagger-generator-erlang
       valitydev/tds-proto
       valitydev/techdocs
