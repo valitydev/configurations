@@ -232,6 +232,7 @@ group:
         exclude: |
           basic-linters.yml
     repos: |-
+      valitydev/alert-tg-bot-proto
       valitydev/analytics-proto
       valitydev/bender-proto
       valitydev/binbase-proto
@@ -256,6 +257,7 @@ group:
       valitydev/limiter-proto
       valitydev/machinegun-proto
       valitydev/magista-proto
+      valitydev/mayday-proto
       valitydev/messages-proto
       valitydev/midgard-proto
       valitydev/moneypenny-proto
