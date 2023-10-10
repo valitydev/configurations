@@ -330,7 +330,6 @@ group:
       valitydev/magista-dsl
       valitydev/messages
       valitydev/mg-event-sink-listener-spring-boot-starter
-      valitydev/newway
       valitydev/org-manager
       valitydev/party-shop
       valitydev/payout-manager
