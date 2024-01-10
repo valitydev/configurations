@@ -237,8 +237,8 @@ group:
       valitydev/bender-proto
       valitydev/binbase-proto
       valitydev/bouncer-proto
-      valitydev/cashreg-proto
       valitydev/cds-proto
+      valitydev/columbus-proto
       valitydev/damsel
       valitydev/deanonimus-proto
       valitydev/dominant-cache-proto
@@ -258,25 +258,19 @@ group:
       valitydev/machinegun-proto
       valitydev/magista-proto
       valitydev/mayday-proto
-      valitydev/messages-proto
-      valitydev/midgard-proto
       valitydev/moneypenny-proto
       valitydev/msgpack-proto
       valitydev/notification-proto
       valitydev/org-management-proto
-      valitydev/party-shop-proto
       valitydev/pathfinder_proto
       valitydev/payout-manager-proto
       valitydev/pstds-proto
-      valitydev/questionary-aggr-proto
       valitydev/repairer-proto
       valitydev/reporter-proto
       valitydev/schedulator-proto
       valitydev/scrooge-proto
       valitydev/tds-proto
-      valitydev/three-ds-server-storage-proto
       valitydev/token-keeper-proto
-      valitydev/trusted-tokens-proto
       valitydev/wb-list-proto
       valitydev/webhook-dispatcher-proto
       valitydev/xrates-proto
