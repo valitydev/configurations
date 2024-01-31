@@ -339,17 +339,16 @@ group:
       valitydev/machinarium
       valitydev/magista
       valitydev/magista-dsl
+      valitydev/mayday
       valitydev/messages
       valitydev/mg-event-sink-listener-spring-boot-starter
       valitydev/org-manager
-      valitydev/party-shop
       valitydev/payout-manager
       valitydev/pg-embedded-plugin
       valitydev/proxy-mocket-inspector
       valitydev/proxy-mocketbank
       valitydev/proxy-mocketbank-apm
       valitydev/proxy-mocketbank-mpi
-      valitydev/questionary-aggr-proxy
       valitydev/registry-payout-worker
       valitydev/repairer
       valitydev/reporter
@@ -368,6 +367,7 @@ group:
       valitydev/woody_java
       valitydev/xrates
       valitydev/claim-management-api
+      valitydev/dev-vality-tg-bot
       valitydev/rate-boss
       valitydev/vortigon
   - id: erlang
