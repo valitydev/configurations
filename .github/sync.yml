@@ -376,6 +376,7 @@ group:
         dest: .github/settings.yml
         replace: true
     repos: |-
+      valitydev/api-key-mgmt-v2
       valitydev/bankcard-validator
       valitydev/bender
       valitydev/bender-client-erlang
@@ -388,8 +389,10 @@ group:
       valitydev/dmt-client
       valitydev/dmt-core
       valitydev/dominant
+      valitydev/erlang-health
       valitydev/erlang-templates
       valitydev/fistful-server
+      valitydev/genlib
       valitydev/hellgate
       valitydev/iosetopts
       valitydev/kds
@@ -398,11 +401,15 @@ group:
       valitydev/machinegun-core
       valitydev/machinegun-woody-api
       valitydev/machinery-erlang
+      valitydev/mg2
       valitydev/party-client-erlang
       valitydev/party-management
       valitydev/payproc-errors-erlang
+      valitydev/prospan
+      valitydev/ranger
       valitydev/rebar3-lcov
       valitydev/rebar3-thrift-compiler
+      valitydev/registry_bench
       valitydev/scoper
       valitydev/swagger-generator-erlang
       valitydev/thrift-erlang
@@ -415,4 +422,5 @@ group:
       valitydev/woody_erlang
       valitydev/woorl
       valitydev/api-key-mgmt
+      valitydev/tester
       valitydev/woody_ex
