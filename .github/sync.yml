@@ -16,6 +16,7 @@ group:
       valitydev/action-download-file
       valitydev/action-frontend
       valitydev/action-jdk-build
+      valitydev/action-mattermost-notify
       valitydev/action-setup-swagger-codegen
       valitydev/action-setup-thrift
       valitydev/adapter-bank-payout-spring-boot-starter
@@ -68,6 +69,7 @@ group:
       valitydev/db-common-lib
       valitydev/deanonimus
       valitydev/deanonimus-proto
+      valitydev/dev-vality-tg-bot
       valitydev/dmt-client
       valitydev/dmt-core
       valitydev/dominant
@@ -146,6 +148,7 @@ group:
       valitydev/messages
       valitydev/messages-proto
       valitydev/mg-event-sink-listener-spring-boot-starter
+      valitydev/mg2
       valitydev/moneypenny-proto
       valitydev/msgpack-proto
       valitydev/mvnotify
